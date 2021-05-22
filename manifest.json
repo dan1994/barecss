@@ -1,0 +1,17 @@
+{
+    "name": "Bare CSS",
+    "description": "Inject CSS into Pages with no CSS",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "images/injection.png"
+    },
+    "icons": {
+        "16": "images/injection.png",
+        "32": "images/injection.png",
+        "48": "images/injection.png",
+        "128": "images/injection.png"
+    }
+}
